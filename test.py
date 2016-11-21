@@ -1,0 +1,8 @@
+from routific.routific import Routific
+
+tok='bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ODJmMzcyYjRjZDllNzY5MGE2OTZmNWUiLCJpYXQiOjE0Nzk0ODkzMjN9.9uE0can0APyhv_8vkkZtGCfbEaQ6l-AD3DpVJJpegLk'
+
+routic=Routific(token=tok)
+#routic.token='bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ODJmMzcyYjRjZDllNzY5MGE2OTZmNWUiLCJpYXQiOjE0Nzk0ODkzMjN9.9uE0can0APyhv_8vkkZtGCfbEaQ6l-AD3DpVJJpegLk'
+
+routic.addVisit(6,23.108075, -82.372138);
