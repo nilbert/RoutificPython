@@ -1,5 +1,21 @@
 from location import Location
 import json
+'''
+start_location |	Location object	required
+end_location |	Location object	optional
+shift_start |	String ("hh:mm")	optional
+shift_end |	String ("hh:mm")	optional
+capacity |	Number (any unit)	optional
+type |	String or Array	optional
+speed |	String(faster, fast, normal(default), slow, very slow, bike) or Number	optional
+strict_start |	Boolean	optional
+min_visits |	Number	optional
+break_start |	String ("hh:mm")	optional
+break_end |	String ("hh:mm")	optional
+break_duration |	Number (minutes)	optional
+
+'''
+
 
 class Vehicle(object):
 
